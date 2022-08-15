@@ -8,15 +8,12 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <AssemblyName>Minimatch</AssemblyName>
-    <AssemblyOriginatorKeyFile>Minimatch.snk</AssemblyOriginatorKeyFile>
-    <SignAssembly>true</SignAssembly>
-    <PublicSign Condition=" '$(OS)' != 'Windows_NT' ">true</PublicSign>
-    <PackageId>Minimatch</PackageId>
+    <PackageId>Minimatch.Repacked</PackageId>
     <PackageTags>strings;glob;search;files;wildcards;patterns</PackageTags>
     <PackageReleaseNotes>Repackaged with .Net Platform Standard</PackageReleaseNotes>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/SLaks/Minimatch/</RepositoryUrl>
+    <RepositoryUrl>https://github.com/peopleware/Minimatch/</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
